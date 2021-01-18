@@ -6,6 +6,7 @@ We can do single data prediction through the web application.
 
 To access the web application hit the following ip address or url
 ip : 13.59.2.199
+
 url : http://ec2-13-59-2-199.us-east-2.compute.amazonaws.com/
 
 The application has been deployed in an EC2 ubuntu in AWS. The gateway interface used is Gunicorn.
