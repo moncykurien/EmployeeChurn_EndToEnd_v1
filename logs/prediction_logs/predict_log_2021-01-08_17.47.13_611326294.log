@@ -1,0 +1,23 @@
+2021-01-08 17:47:13,981  :   INFO   :   Start of Single Predict from model.
+2021-01-08 17:47:13,982  :   INFO   :   Run id is 2021-01-08_17.47.13_611326294
+2021-01-08 17:47:13,982  :   INFO   :   Start of preprocessing predict.
+2021-01-08 17:47:13,982  :   INFO   :   Starting of feature encoding
+2021-01-08 17:47:13,990  :   INFO   :   End of feature encoding
+2021-01-08 17:47:13,992  :   INFO   :   Starting drop columns
+2021-01-08 17:47:13,995  :   INFO   :   End of dropping columns
+2021-01-08 17:47:13,995  :   INFO   :   Starting to find missing values
+2021-01-08 17:47:13,996  :   INFO   :   End of finding missing values.
+2021-01-08 17:47:13,996  :   INFO   :   start of final predictset.
+2021-01-08 17:47:14,003  :   INFO   :   End of building the final predictset.
+2021-01-08 17:47:14,003  :   INFO   :   End of Preprocessing Predictset.
+2021-01-08 17:47:14,004  :   INFO   :   Start of Load Model
+2021-01-08 17:47:14,004  :   INFO   :   Model File kmeans loaded.
+2021-01-08 17:47:14,004  :   INFO   :   End of Load Models
+2021-01-08 17:47:14,010  :   INFO   :   fStarting to predict data within cluster {i}
+2021-01-08 17:47:14,011  :   INFO   :   Start of finding Correct Model.
+2021-01-08 17:47:14,011  :   INFO   :   End of Correct Model.
+2021-01-08 17:47:14,012  :   INFO   :   Start of Load Model
+2021-01-08 17:47:14,014  :   INFO   :   Model File XGBoost0 loaded.
+2021-01-08 17:47:14,014  :   INFO   :   End of Load Models
+2021-01-08 17:47:14,017  :   INFO   :   Prediction of label for cluster 0 successful. Prediction is: [0.]
+2021-01-08 17:47:14,017  :   INFO   :   End of Single Predictions.

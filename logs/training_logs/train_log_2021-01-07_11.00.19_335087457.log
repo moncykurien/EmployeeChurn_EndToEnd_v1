@@ -1,0 +1,204 @@
+2021-01-07 11:00:19,924  :   INFO   :   Starting to train the model.
+2021-01-07 11:00:19,924  :   INFO   :   Run Id: 2021-01-07_11.00.19_335087457
+2021-01-07 11:00:19,924  :   INFO   :   Start of Training Data Load, Validation and transformation.
+2021-01-07 11:00:19,925  :   INFO   :   Starting to Archive Old Rejected files.
+2021-01-07 11:00:19,927  :   INFO   :   End of Archiving Old Rejected files.
+2021-01-07 11:00:19,927  :   INFO   :   Starting to Archive Old Validated Files
+2021-01-07 11:00:19,927  :   INFO   :   End of Archiving Old Validated files.
+2021-01-07 11:00:19,928  :   INFO   :   Starting to Archive Old Processed files.
+2021-01-07 11:00:19,928  :   INFO   :   End of Archiving Old Processed files.
+2021-01-07 11:00:19,929  :   INFO   :   Starting to Archive Old Results Files
+2021-01-07 11:00:19,929  :   INFO   :   End of Archiving Old Results files.
+2021-01-07 11:00:19,929  :   INFO   :   End of Archiving process
+2021-01-07 11:00:19,929  :   INFO   :   Starting of reading values from schema
+2021-01-07 11:00:19,930  :   INFO   :   End of reading values from schema.
+2021-01-07 11:00:19,930  :   INFO   :   Starting to validate the column length.
+2021-01-07 11:00:20,570  :   INFO   :   End of validating the column length.
+2021-01-07 11:00:20,571  :   INFO   :   Starting to validate the missing values
+2021-01-07 11:00:20,587  :   INFO   :   All the values in Column empid are missing in file hr_employee_churn_data - Copy.csv. Moved to rejects folder.
+2021-01-07 11:00:20,604  :   INFO   :   Ending missing values validation.
+2021-01-07 11:00:20,604  :   INFO   :   Starting to replace missing values with Null
+2021-01-07 11:00:21,046  :   INFO   :   End of replacing missing values.
+2021-01-07 11:00:21,047  :   INFO   :   Start of Creating Table training_raw_data_t in database training.
+2021-01-07 11:00:21,048  :   INFO   :   Connected to the training database successfully.
+2021-01-07 11:00:21,263  :   INFO   :   Created the table training_raw_data_t
+2021-01-07 11:00:21,314  :   INFO   :   Altered the table training_raw_data_t
+2021-01-07 11:00:21,364  :   INFO   :   Altered the table training_raw_data_t
+2021-01-07 11:00:21,416  :   INFO   :   Altered the table training_raw_data_t
+2021-01-07 11:00:21,466  :   INFO   :   Altered the table training_raw_data_t
+2021-01-07 11:00:21,517  :   INFO   :   Altered the table training_raw_data_t
+2021-01-07 11:00:21,568  :   INFO   :   Altered the table training_raw_data_t
+2021-01-07 11:00:21,619  :   INFO   :   Altered the table training_raw_data_t
+2021-01-07 11:00:21,670  :   INFO   :   Altered the table training_raw_data_t
+2021-01-07 11:00:21,720  :   INFO   :   Altered the table training_raw_data_t
+2021-01-07 11:00:21,721  :   INFO   :   End of creating table.
+2021-01-07 11:00:21,723  :   INFO   :   Connected to the training database successfully.
+2021-01-07 11:00:21,724  :   INFO   :   Starting to Insert data into table training_raw_data_t
+2021-01-07 11:32:42,220  :   INFO   :   End of inserting data into table.
+2021-01-07 11:32:42,220  :   INFO   :   Start of Exporting Data into CSV...
+2021-01-07 11:32:42,220  :   INFO   :   Connected to the training database successfully.
+2021-01-07 11:32:42,356  :   INFO   :   End of Exporting Data into CSV...
+2021-01-07 11:32:42,359  :   INFO   :   Starting to move the processed files.
+2021-01-07 11:32:42,360  :   INFO   :   Moved the processed file hr_employee_churn_data.csv.
+2021-01-07 11:32:42,360  :   INFO   :   Ending the moving of Processed files.
+2021-01-07 11:32:42,360  :   INFO   :   End of Training Data Load, Validation and transformation.
+2021-01-07 11:32:42,360  :   INFO   :   Start to Preprocess.
+2021-01-07 11:32:42,360  :   INFO   :   Starting to get data from CSV to DataFrame.
+2021-01-07 11:32:42,377  :   INFO   :   End of reading data.
+2021-01-07 11:32:42,378  :   INFO   :   Starting drop columns
+2021-01-07 11:32:42,716  :   INFO   :   End of dropping columns
+2021-01-07 11:32:42,716  :   INFO   :   Starting of feature encoding
+2021-01-07 11:32:42,854  :   INFO   :   End of feature encoding
+2021-01-07 11:32:42,859  :   INFO   :   Starting drop columns
+2021-01-07 11:32:42,863  :   INFO   :   End of dropping columns
+2021-01-07 11:32:42,863  :   INFO   :   Starting to find missing values
+2021-01-07 11:32:42,882  :   INFO   :   End of finding missing values.
+2021-01-07 11:32:42,882  :   INFO   :   Starting to impute the missing values.
+2021-01-07 11:32:42,972  :   INFO   :   End of impute missing values.
+2021-01-07 11:32:42,972  :   INFO   :   Starting to split features and labels
+2021-01-07 11:32:42,975  :   INFO   :   End of spliting features and labels
+2021-01-07 11:32:42,975  :   INFO   :   End of Preprocessing Trainset.
+2021-01-07 11:32:42,976  :   INFO   :   Starting to cluster the data with elbow plot
+2021-01-07 11:32:51,376  :   INFO   :   The optimum number of clusters is: 3
+2021-01-07 11:32:51,376  :   INFO   :   End of elbow plotting...
+2021-01-07 11:32:51,376  :   INFO   :   Starting to create clusters with given number of clusters
+2021-01-07 11:32:51,709  :   INFO   :   Successfully created the clusters
+2021-01-07 11:32:51,709  :   INFO   :   Start of Save Models
+2021-01-07 11:32:51,709  :   INFO   :   Start of Save Models
+2021-01-07 11:32:51,929  :   INFO   :   Model File kmeans saved
+2021-01-07 11:32:51,929  :   INFO   :   Model File kmeans saved
+2021-01-07 11:32:51,929  :   INFO   :   End of Save Models
+2021-01-07 11:32:51,929  :   INFO   :   End of Save Models
+2021-01-07 11:32:51,929  :   INFO   :   Cluster model successfully saved
+2021-01-07 11:32:52,030  :   INFO   :   End of create clusters.
+2021-01-07 11:32:52,626  :   INFO   :   Starting get best model.
+2021-01-07 11:32:52,626  :   INFO   :   Starting to find the best parameters for XGBClassifier.
+2021-01-07 11:33:15,638  :   INFO   :   Best parameters for XDBClassifier: {'booster': 'gblinear', 'learning_rate': 1, 'max_depth': range(2, 11), 'n_estimators': 200}
+2021-01-07 11:33:15,920  :   INFO   :   End of finding best param for XGBClassifier.
+2021-01-07 11:33:15,927  :   INFO   :   Start of finding the best parameters for RandomForestClassifier.
+2021-01-07 11:33:24,249  :   ERROR   :   Error occurred while finding best parameters for RandomForestClassifier
+Traceback (most recent call last):
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\apps\tuning\model_tuner.py", line 48, in best_params_randomforest
+    self.grid.fit(train_x,train_y)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\utils\validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\model_selection\_search.py", line 880, in fit
+    self.best_estimator_.fit(X, y, **fit_params)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\ensemble\_forest.py", line 393, in fit
+    for i, t in enumerate(trees))
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\parallel.py", line 1041, in __call__
+    if self.dispatch_one_batch(iterator):
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\parallel.py", line 859, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\parallel.py", line 777, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\_parallel_backends.py", line 572, in __init__
+    self.results = batch()
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\parallel.py", line 263, in __call__
+    for func, args, kwargs in self.items]
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\parallel.py", line 263, in <listcomp>
+    for func, args, kwargs in self.items]
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\utils\fixes.py", line 222, in __call__
+    return self.function(*args, **kwargs)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\ensemble\_forest.py", line 169, in _parallel_build_trees
+    tree.fit(X, y, sample_weight=curr_sample_weight, check_input=False)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\tree\_classes.py", line 902, in fit
+    X_idx_sorted=X_idx_sorted)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\tree\_classes.py", line 285, in fit
+    if max_depth <= 0:
+TypeError: '<=' not supported between instances of 'range' and 'int'
+2021-01-07 11:33:24,537  :   ERROR   :   Error occurred while getting the best model. 
+Traceback (most recent call last):
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\apps\tuning\model_tuner.py", line 48, in best_params_randomforest
+    self.grid.fit(train_x,train_y)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\utils\validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\model_selection\_search.py", line 880, in fit
+    self.best_estimator_.fit(X, y, **fit_params)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\ensemble\_forest.py", line 393, in fit
+    for i, t in enumerate(trees))
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\parallel.py", line 1041, in __call__
+    if self.dispatch_one_batch(iterator):
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\parallel.py", line 859, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\parallel.py", line 777, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\_parallel_backends.py", line 572, in __init__
+    self.results = batch()
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\parallel.py", line 263, in __call__
+    for func, args, kwargs in self.items]
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\parallel.py", line 263, in <listcomp>
+    for func, args, kwargs in self.items]
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\utils\fixes.py", line 222, in __call__
+    return self.function(*args, **kwargs)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\ensemble\_forest.py", line 169, in _parallel_build_trees
+    tree.fit(X, y, sample_weight=curr_sample_weight, check_input=False)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\tree\_classes.py", line 902, in fit
+    X_idx_sorted=X_idx_sorted)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\tree\_classes.py", line 285, in fit
+    if max_depth <= 0:
+TypeError: '<=' not supported between instances of 'range' and 'int'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\apps\tuning\model_tuner.py", line 112, in get_best_model
+    self.random_forest = self.best_params_randomforest(train_x,train_y)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\apps\tuning\model_tuner.py", line 68, in best_params_randomforest
+    raise Exception()
+Exception
+2021-01-07 11:33:24,540  :   ERROR   :   Error occurred while training Model in train_model.py. 
+Traceback (most recent call last):
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\apps\tuning\model_tuner.py", line 48, in best_params_randomforest
+    self.grid.fit(train_x,train_y)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\utils\validation.py", line 63, in inner_f
+    return f(*args, **kwargs)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\model_selection\_search.py", line 880, in fit
+    self.best_estimator_.fit(X, y, **fit_params)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\ensemble\_forest.py", line 393, in fit
+    for i, t in enumerate(trees))
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\parallel.py", line 1041, in __call__
+    if self.dispatch_one_batch(iterator):
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\parallel.py", line 859, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\parallel.py", line 777, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\_parallel_backends.py", line 572, in __init__
+    self.results = batch()
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\parallel.py", line 263, in __call__
+    for func, args, kwargs in self.items]
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\joblib\parallel.py", line 263, in <listcomp>
+    for func, args, kwargs in self.items]
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\utils\fixes.py", line 222, in __call__
+    return self.function(*args, **kwargs)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\ensemble\_forest.py", line 169, in _parallel_build_trees
+    tree.fit(X, y, sample_weight=curr_sample_weight, check_input=False)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\tree\_classes.py", line 902, in fit
+    X_idx_sorted=X_idx_sorted)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\venv\lib\site-packages\sklearn\tree\_classes.py", line 285, in fit
+    if max_depth <= 0:
+TypeError: '<=' not supported between instances of 'range' and 'int'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\apps\tuning\model_tuner.py", line 112, in get_best_model
+    self.random_forest = self.best_params_randomforest(train_x,train_y)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\apps\tuning\model_tuner.py", line 68, in best_params_randomforest
+    raise Exception()
+Exception
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\apps\training\train_model.py", line 52, in training_model
+    best_model_name, best_model = self.modelTuner.get_best_model(x_train, y_train, x_test, y_test)
+  File "X:\LAB\MachineLearning\iNeuron\ML Masters\projects\EmployeeChurn_EndToEnd_v1\apps\tuning\model_tuner.py", line 135, in get_best_model
+    raise Exception()
+Exception

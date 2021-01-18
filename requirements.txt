@@ -1,0 +1,18 @@
+Flask==1.1.1 #Flask Lib
+Flask-Cors==3.0.8 #A Flask extension for handling Cross Origin Resource Sharing(Cors), making Cross Origin AJAX possible
+matplotlib==3.1.2
+numpy==1.19.4
+pandas==1.2.0
+scikit-learn==0.24.0
+kneed==0.5.1   # Elbow plot
+xgboost==1.0.2
+Flask-MonitoringDashboard==3.0.6
+
+#Needed for Flask to run
+Jinja2==2.11.0 # Flask is based on the Jinja2 template engine
+Werkzeug==0.16.1 # Flask is based on Werkzeug WSGI toolkit
+
+#For security purpose
+itsdangerous==1.1.0  # Various helpers to pass data to untrusted environments and to get it back safe and sound.
+certifi==2019.11.28 # Certifi is a carefully curated collection of root Certificates for validating the trustworthiness
+MarkupSafe==1.1.1  #MarkupSafe implements a text object that escapes characters so it is safe to use in html and xml

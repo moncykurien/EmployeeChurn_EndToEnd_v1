@@ -1,0 +1,80 @@
+2021-01-07 12:39:27,898  :   INFO   :   Starting to train the model.
+2021-01-07 12:39:27,899  :   INFO   :   Run Id: 2021-01-07_12.39.27_440047632
+2021-01-07 12:39:27,899  :   INFO   :   Start to Preprocess.
+2021-01-07 12:39:27,899  :   INFO   :   Starting to get data from CSV to DataFrame.
+2021-01-07 12:39:28,117  :   INFO   :   End of reading data.
+2021-01-07 12:39:28,117  :   INFO   :   Starting drop columns
+2021-01-07 12:39:28,118  :   INFO   :   End of dropping columns
+2021-01-07 12:39:28,118  :   INFO   :   Starting of feature encoding
+2021-01-07 12:39:28,127  :   INFO   :   End of feature encoding
+2021-01-07 12:39:28,128  :   INFO   :   Starting drop columns
+2021-01-07 12:39:28,163  :   INFO   :   End of dropping columns
+2021-01-07 12:39:28,163  :   INFO   :   Starting to find missing values
+2021-01-07 12:39:28,171  :   INFO   :   End of finding missing values.
+2021-01-07 12:39:28,173  :   INFO   :   Starting to impute the missing values.
+2021-01-07 12:39:28,194  :   INFO   :   End of impute missing values.
+2021-01-07 12:39:28,194  :   INFO   :   Starting to split features and labels
+2021-01-07 12:39:28,196  :   INFO   :   End of spliting features and labels
+2021-01-07 12:39:28,196  :   INFO   :   End of Preprocessing Trainset.
+2021-01-07 12:39:28,197  :   INFO   :   Starting to cluster the data with elbow plot
+2021-01-07 12:39:33,279  :   INFO   :   The optimum number of clusters is: 3
+2021-01-07 12:39:33,279  :   INFO   :   End of elbow plotting...
+2021-01-07 12:39:33,279  :   INFO   :   Starting to create clusters with given number of clusters
+2021-01-07 12:39:33,513  :   INFO   :   Successfully created the clusters
+2021-01-07 12:39:33,514  :   INFO   :   Start of Save Models
+2021-01-07 12:39:33,514  :   INFO   :   Start of Save Models
+2021-01-07 12:39:33,518  :   INFO   :   Model File kmeans saved
+2021-01-07 12:39:33,518  :   INFO   :   Model File kmeans saved
+2021-01-07 12:39:33,519  :   INFO   :   End of Save Models
+2021-01-07 12:39:33,519  :   INFO   :   End of Save Models
+2021-01-07 12:39:33,519  :   INFO   :   Cluster model successfully saved
+2021-01-07 12:39:33,520  :   INFO   :   End of create clusters.
+2021-01-07 12:39:33,543  :   INFO   :   Starting get best model.
+2021-01-07 12:39:33,543  :   INFO   :   Starting to find the best parameters for XGBClassifier.
+2021-01-07 13:00:21,176  :   INFO   :   Best parameters for XDBClassifier: {'booster': 'gbtree', 'learning_rate': 0.1, 'max_depth': 10, 'n_estimators': 180}
+2021-01-07 13:00:22,055  :   INFO   :   End of finding best param for XGBClassifier.
+2021-01-07 13:00:22,063  :   INFO   :   Start of finding the best parameters for RandomForestClassifier.
+2021-01-07 13:04:11,734  :   INFO   :   RandomForestClassifier best parameters: {'criterion': 'entropy', 'max_depth': 10, 'max_features': 'auto', 'n_estimators': 50}
+2021-01-07 13:04:11,993  :   INFO   :   Created a tuned RandomForestClassifier model.
+2021-01-07 13:04:11,993  :   INFO   :   End of finding the best parameters for RandomForestClassifier.
+2021-01-07 13:04:12,219  :   INFO   :   ROC AUC score for XGBOOST: 0.9831867026457392
+2021-01-07 13:04:12,219  :   INFO   :   ROC AUC score for Random Forest: 0.9778856440307205
+2021-01-07 13:04:12,219  :   INFO   :   Start of Save Models
+2021-01-07 13:04:12,219  :   INFO   :   Start of Save Models
+2021-01-07 13:04:12,322  :   INFO   :   Model File XGBoost0 saved
+2021-01-07 13:04:12,322  :   INFO   :   Model File XGBoost0 saved
+2021-01-07 13:04:12,323  :   INFO   :   End of Save Models
+2021-01-07 13:04:12,323  :   INFO   :   End of Save Models
+2021-01-07 13:04:12,334  :   INFO   :   Starting get best model.
+2021-01-07 13:04:12,334  :   INFO   :   Starting to find the best parameters for XGBClassifier.
+2021-01-07 13:27:26,965  :   INFO   :   Best parameters for XDBClassifier: {'booster': 'gbtree', 'learning_rate': 0.1, 'max_depth': 9, 'n_estimators': 100}
+2021-01-07 13:27:27,728  :   INFO   :   End of finding best param for XGBClassifier.
+2021-01-07 13:27:27,736  :   INFO   :   Start of finding the best parameters for RandomForestClassifier.
+2021-01-07 13:32:44,444  :   INFO   :   RandomForestClassifier best parameters: {'criterion': 'entropy', 'max_depth': 10, 'max_features': None, 'n_estimators': 150}
+2021-01-07 13:32:47,009  :   INFO   :   Created a tuned RandomForestClassifier model.
+2021-01-07 13:32:47,009  :   INFO   :   End of finding the best parameters for RandomForestClassifier.
+2021-01-07 13:32:47,117  :   INFO   :   ROC AUC score for XGBOOST: 0.9852766892447167
+2021-01-07 13:32:47,118  :   INFO   :   ROC AUC score for Random Forest: 0.9683193626242441
+2021-01-07 13:32:47,119  :   INFO   :   Start of Save Models
+2021-01-07 13:32:47,119  :   INFO   :   Start of Save Models
+2021-01-07 13:32:47,129  :   INFO   :   Model File XGBoost1 saved
+2021-01-07 13:32:47,129  :   INFO   :   Model File XGBoost1 saved
+2021-01-07 13:32:47,129  :   INFO   :   End of Save Models
+2021-01-07 13:32:47,129  :   INFO   :   End of Save Models
+2021-01-07 13:32:47,146  :   INFO   :   Starting get best model.
+2021-01-07 13:32:47,147  :   INFO   :   Starting to find the best parameters for XGBClassifier.
+2021-01-07 13:50:20,639  :   INFO   :   Best parameters for XDBClassifier: {'booster': 'gbtree', 'learning_rate': 0.1, 'max_depth': 8, 'n_estimators': 200}
+2021-01-07 13:50:21,621  :   INFO   :   End of finding best param for XGBClassifier.
+2021-01-07 13:50:21,629  :   INFO   :   Start of finding the best parameters for RandomForestClassifier.
+2021-01-07 13:54:13,622  :   INFO   :   RandomForestClassifier best parameters: {'criterion': 'gini', 'max_depth': 10, 'max_features': None, 'n_estimators': 200}
+2021-01-07 13:54:16,546  :   INFO   :   Created a tuned RandomForestClassifier model.
+2021-01-07 13:54:16,546  :   INFO   :   End of finding the best parameters for RandomForestClassifier.
+2021-01-07 13:54:16,668  :   INFO   :   ROC AUC score for XGBOOST: 0.9805267485951848
+2021-01-07 13:54:16,668  :   INFO   :   ROC AUC score for Random Forest: 0.9574215359312898
+2021-01-07 13:54:16,669  :   INFO   :   Start of Save Models
+2021-01-07 13:54:16,669  :   INFO   :   Start of Save Models
+2021-01-07 13:54:16,675  :   INFO   :   Model File XGBoost2 saved
+2021-01-07 13:54:16,675  :   INFO   :   Model File XGBoost2 saved
+2021-01-07 13:54:16,675  :   INFO   :   End of Save Models
+2021-01-07 13:54:16,675  :   INFO   :   End of Save Models
+2021-01-07 13:54:16,676  :   INFO   :   End of Training model.
